@@ -1,0 +1,15 @@
+{
+  "name": "mp3",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "d": "bash script/downloadMP3.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
